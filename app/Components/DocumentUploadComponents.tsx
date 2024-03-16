@@ -10,4 +10,5 @@ export  {default as InputName} from './ContentComponents/InputName';
 export  {default as Location} from './ContentComponents/Location';
 export  {default as Split} from './ContentComponents/Split';
 export  {default as TolerenceWindow} from './ContentComponents/TolerenceWindow';
+export {default as Footer} from './Footer'
 
