@@ -41,11 +41,12 @@ const isUploading: boolean = false;
         <Du.Title text={Data.Title} />
 </div>
         
-          <div className="left-area">
-            <Du.InputName />
-            <Du.FileUpload />
-            <Du.ElapsedCheck />
-            <Du.TolerenceWindow />
+          <div className="left-area ">
+            <div className="left-container">
+           <div className="left-contianed-p1"> <Du.InputName /></div>
+            <div className="left-contained-p2"><Du.FileUpload /></div>
+            <div className="left-contained-p3"><Du.ElapsedCheck /></div>
+            <div className="left-contained-p4"><Du.TolerenceWindow /></div></div>
           </div>
           <div className="right-area">
             <Du.Split />
