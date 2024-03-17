@@ -9,7 +9,7 @@ export default class InputName extends Component {
   render() {
     return (
       <div>
-        
+        input Name
       </div>
     )
   }

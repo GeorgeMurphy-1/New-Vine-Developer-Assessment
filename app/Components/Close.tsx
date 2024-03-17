@@ -7,7 +7,7 @@ interface ClosePropTypes{
 const Close:React.FC<ClosePropTypes> = (props) => {
   return (
     <div>
-      
+      x
     </div>
   )
 }

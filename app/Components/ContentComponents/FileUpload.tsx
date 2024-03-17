@@ -7,7 +7,7 @@ interface FileUpload{
 const FileUpload: React.FC<FileUpload> =(props) => {
   return (
     <div>
-      
+      FileUpload
     </div>
   )
 }

@@ -9,7 +9,7 @@ export default class Split extends Component {
   render() {
     return (
       <div>
-        
+        Split
       </div>
     )
   }

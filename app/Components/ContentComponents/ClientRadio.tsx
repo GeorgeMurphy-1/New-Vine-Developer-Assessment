@@ -9,7 +9,7 @@ export default class ClientRadio extends Component {
   render() {
     return (
       <div>
-        
+        ClientRadio
       </div>
     )
   }

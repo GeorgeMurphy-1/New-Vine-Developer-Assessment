@@ -7,7 +7,7 @@ interface ElapsedCheckPropTypes{
 const ElapsedCheck: React.FC<ElapsedCheckPropTypes> = props => {
   return (
     <div>
-      
+      ElapsedCHeck
     </div>
   )
 }

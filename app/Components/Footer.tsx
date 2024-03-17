@@ -7,7 +7,7 @@ interface FooterPropTypes{
 const Footer: React.FC<FooterPropTypes> = (props) =>{
   return (
     <div>
-      
+      Footer
     </div>
   )
 }

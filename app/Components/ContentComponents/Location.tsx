@@ -7,7 +7,7 @@ interface LocationPropTypes{
 const Location: React.FC<LocationPropTypes> = (props) => {
   return (
     <div>
-      
+      Location
     </div>
   )
 }

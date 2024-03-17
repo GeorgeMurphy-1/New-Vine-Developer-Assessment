@@ -9,7 +9,7 @@ export default class ClientSelector extends Component {
   render() {
     return (
       <div>
-        
+        Client Slector
       </div>
     )
   }

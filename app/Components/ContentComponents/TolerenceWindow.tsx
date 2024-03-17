@@ -9,7 +9,7 @@ export default class tolerenceWindow extends Component {
   render() {
     return (
       <div>
-        
+        Tolerence Window
       </div>
     )
   }
