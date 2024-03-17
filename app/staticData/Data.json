@@ -2,5 +2,13 @@
     "Title": "Document Upload",
     "placeholder-1": "Select Import Name",
     "options": ["option-1","option-2","option-3"],
-    "title-section-1": "Select a manifest that you'd like to import"
+    "title-section-1": "Select a manifest that you'd like to import",
+    "title-section-2": "Elapsed Data Checking",
+    "title-section-3": "Location-Checking:",
+    "fileName":"WN-DAL-0726-NH20166.csv",
+    "bitsDownloaded": "5.7MB",
+    "tolerencelevel": "Select Tolerence Level",
+    "Toggle on": "Toggle On",
+    "split Schedulet title": "Split schedule using scoial distancing?",
+    "Client radio title": "Client:"
 }

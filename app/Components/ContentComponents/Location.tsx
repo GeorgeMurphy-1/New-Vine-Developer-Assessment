@@ -1,20 +1,22 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Data from '../../staticData/Data.json'
 
-interface LocationPropTypes{
-
+interface ElapsedCheckPropTypes{
+  elapsedDates?:string[]
 }
-const Location: React.FC<LocationPropTypes> = (props) => {
-  return (
-    <div>
-      Location
-    </div>
+const ElapsedCheck: React.FC<ElapsedCheckPropTypes> = props => {
+  return (<>
+    <h3 className='text'>{Data['title-section-3']}</h3>
+    {props.elapsedDates ? (props.elapsedDates):( <p className='text-success'>All Available!</p>)}
+
+
+    </>
   )
 }
 
-Location.propTypes = {
+ElapsedCheck.propTypes = {
 
 }
 
-export default Location
-
+export default ElapsedCheck;

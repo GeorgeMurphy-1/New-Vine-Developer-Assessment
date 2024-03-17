@@ -11,7 +11,7 @@ export default class InputStyled extends Component<InputStyledProps> {
     const { placeholder, options } = this.props;
 
     return (
-      <select>
+      <select className='select'>
         {placeholder && <option disabled selected>{placeholder}</option>}
         {options && options.map((option, index) => (
           <option key={index} value={option}>{option}</option>
