@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Image from 'next/image'
 
 interface ClosePropTypes{
     
 }
 const Close:React.FC<ClosePropTypes> = (props) => {
   return (
-    <div>
-      x
-    </div>
+    <Image alt="close" width="39" height="39" src={'./CloseSymbol.svg'} ></Image>
+    
   )
 }
 

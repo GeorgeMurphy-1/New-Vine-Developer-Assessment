@@ -7,6 +7,8 @@ import ContinueAction from './helperFunctions/ContinueAction'
 import DragAndDropAction from './helperFunctions/DragAndDropAction'
 import  UploadFileAction from './helperFunctions/UploadFileAction'
 
+import Image from "next/image";
+
 
 
 export default function Home() {
@@ -39,11 +41,12 @@ const isUploading: boolean = false;
 
       <div className="title-area centered">
         <Du.Title text={Data.Title} />
+        <Image height="3" width="285" alt="seperator" src={'./Horizontal Bar.svg'} />
 </div>
         
           <div className="left-area ">
             <div className="left-container">
-           <div className="left-contianed-p1"> <Du.InputName /></div>
+           <div className="left-contianed-p1"> <Du.InputName /> <Image height="3" width="285" alt="seperator" src={'./Horizontal Bar.svg'} /></div>
             <div className="left-contained-p2"><Du.FileUpload /></div>
             <div className="left-contained-p3"><Du.ElapsedCheck /></div>
             <div className="left-contained-p4"><Du.TolerenceWindow /></div></div>

@@ -1,0 +1,54 @@
+.round-corner {
+  border-radius: 10px;
+  border: 1px solid var(--black-color);
+}
+
+.dotted-corner {
+  border-radius: 10px;
+  border: 1px dotted var(--black-color);
+}
+
+.round-corner-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 2fr 6fr repeat(2, 2fr) 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+  height: 195px;
+}
+
+.round-corner-grid-1 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.round-corner-grid-2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.t-b-image-pad {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.margin-auto {
+  margin: auto;
+}
+
+.bg {
+  background-image: url("/DRAG & Drop - inner Border.svg");
+  background-repeat: no-repeat;
+
+  margin: 20px 30px 0px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  width: 476px;
+  height: 123px;
+}
+
+.center-button:only-child {
+  display: block;
+  margin: auto;
+}
