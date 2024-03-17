@@ -49,10 +49,12 @@ const isUploading: boolean = false;
             <div className="left-contained-p4"><Du.TolerenceWindow /></div></div>
           </div>
           <div className="right-area">
-            <Du.Split />
-            <Du.Location />
-            <Du.ClientRadio />
-            <Du.ClientSelector />
+            <div className="right-container">
+            <div className="right-contained-1"><Du.Split /></div>
+            <div className="right-contained-2"><Du.Location /></div>
+            <div className="right-contained-3"><Du.ClientRadio /></div>
+            <div className="right-contained-4"><Du.ClientSelector /></div>
+            </div>
           </div>
         <div className="footer-area centered"><Du.Footer /></div>
           

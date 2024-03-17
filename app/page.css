@@ -48,6 +48,7 @@
   .left-contianed-p5 { grid-area: 5 / 1 / 6 / 2; }
 
   .right-container {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
