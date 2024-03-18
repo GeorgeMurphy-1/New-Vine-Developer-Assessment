@@ -30,7 +30,7 @@ export default class Split extends Component<{}, SplitState> {
       <>
         <div className='text bold-text'>
           <h3 className="bold text">{Data['split Schedulet title']}</h3>
-          <span>
+          <span className='flex'>
             <label className="radio-container">
               <input
                 className="radio-input"

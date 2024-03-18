@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Data from '../../staticData/Data.json';
+import './radio.css';
 
 interface SplitState {
   selectedOption: string | null;
@@ -31,8 +32,8 @@ export default class Split extends Component<{},SplitState> {
       <div className='text '>
         <h3 className="bold text">
         {Data['Client radio title']}</h3>
-        <span>
-        <label>
+        <span className='flex'>
+        <label className='radio-container'>
           <input
             type="radio"
             value="option1"
@@ -42,7 +43,7 @@ export default class Split extends Component<{},SplitState> {
           Single
         </label>
         
-        <label>
+        <label className="radio-container">
           <input
             type="radio"
             value="option2"

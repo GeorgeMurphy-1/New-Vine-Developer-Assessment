@@ -9,6 +9,10 @@ input[type="radio"] {
   position: relative;
 }
 
+.flex{
+  display:flex;
+}
+
 input[type="radio"]:checked::before {
   content: '';
   position: absolute;
