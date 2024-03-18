@@ -62,7 +62,7 @@ const FileUpload: React.FC<FileUploadProps> = (props) => {
           ></Image>
         </div>
         <div className="uploadProgress-child2">
-          <span className="text text-light">{fileName}</span>
+          <span className="text text-light">{(fileName) ? (fileName) : Data.fileName }</span>
         </div>
         <div className="uploadProgress-child4">
           <span className="text text-light">{Data.bitsDownloaded}</span>

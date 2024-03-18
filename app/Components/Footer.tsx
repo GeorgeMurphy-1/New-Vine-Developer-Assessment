@@ -10,7 +10,9 @@ const Footer: React.FC<FooterPropTypes> = (props) =>{
   return (
     <div>
       <p>Data in the input file is correct. Please press continue to import.</p>
-      <div className='button-container'>
+      
+       <br/>
+       <div className='button-container'>
       <Image
               height="46"
               width="239"

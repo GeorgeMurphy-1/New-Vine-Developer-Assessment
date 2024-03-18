@@ -28,9 +28,9 @@ export default class Split extends Component<{},SplitState> {
     
     const { selectedOption } = this.state;
     return (<>
-      <div className='text bold-text'>
-        <p>
-        {Data['Client radio title']}</p>
+      <div className='text '>
+        <h3 className="bold text">
+        {Data['Client radio title']}</h3>
         <span>
         <label>
           <input
@@ -53,7 +53,7 @@ export default class Split extends Component<{},SplitState> {
         </label>
         <br />
        </span>
-      </div></>
+      </div>  <br/></>
     );
   }
 }
