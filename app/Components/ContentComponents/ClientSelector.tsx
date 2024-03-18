@@ -17,19 +17,19 @@ export default class ClientSelector extends Component {
           height="20"
           width="20"
           alt="seperator"
-          src={"./wait icon.svg"}
+          src={"./wait Icon.svg"}
         /></div>
  <div><span>Testing canter 1</span> <span className='w50'><InputStyled options={Data.options} placeholder={Data['placeholder-1']} /></span><Image
           height="20"
           width="20"
           alt="seperator"
-          src={"./wait icon.svg"}
+          src={"./wait Icon.svg"}
         /></div>
            <div><span>Testing canter 1</span> <span className='w50'><InputStyled options={Data.options} placeholder={Data['placeholder-1']} /></span><Image
           height="20"
           width="20"
           alt="seperator"
-          src={"./wait icon.svg"}
+          src={"./wait Icon.svg"}
         /></div>
                      
       </div>

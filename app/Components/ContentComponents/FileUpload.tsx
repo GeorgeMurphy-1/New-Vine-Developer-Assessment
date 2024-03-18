@@ -36,17 +36,21 @@ const FileUpload: React.FC<FileUpload> = (props) => {
       <div className="uploadProgress">
         <div className="uploadProgress-child">
           <Image
-            alt="upload fiel icon"
+            alt="upload file icon"
             height="24"
             width="24"
             src={"./Upload Icon.svg"}
           ></Image>
         </div>
         <div className="uploadProgress-child2">
-        <span className="text text-light">{Data.fileName}</span></div>
+          <span className="text text-light">{Data.fileName}</span>
+        </div>
         <div className="uploadProgress-child4">
-        <span className="text text-light">{Data.bitsDownloaded}</span></div>
-       <div className="uploadProgress-child3"><progress id="progressBar" value="10" max="100"></progress></div>
+          <span className="text text-light">{Data.bitsDownloaded}</span>
+        </div>
+        <div className="uploadProgress-child3">
+          <progress id="progressBar" value="10" max="100"></progress>
+        </div>
       </div>
     </div>
   );
