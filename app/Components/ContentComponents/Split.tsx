@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Data from '../../staticData/Data.json';
+import './split.css';
 
 interface SplitState {
   selectedOption: string | null;
 }
 
-export default class Split extends Component<{},SplitState> {
+export default class Split extends Component<{}, SplitState> {
   static propTypes = {
     prop: PropTypes.any
   }
 
-  constructor(props:any) {
+  constructor(props: any) {
     super(props);
     this.state = {
       selectedOption: null
@@ -19,41 +20,41 @@ export default class Split extends Component<{},SplitState> {
     this.handleOptionChange = this.handleOptionChange.bind(this);
   }
 
-  handleOptionChange(event:any) {
+  handleOptionChange(event: any) {
     this.setState({ selectedOption: event.target.value });
   }
-  
 
   render() {
-    
     const { selectedOption } = this.state;
-    return (<>
-      <div className='text bold-text'>
-        <p>
-        {Data['split Schedulet title']}</p>
-        <span>
-        <label>
-          <input
-            type="radio"
-            value="option1"
-            checked={selectedOption === "option1"}
-            onChange={this.handleOptionChange}
-          />
-          Yes
-        </label>
-        
-        <label>
-          <input
-            type="radio"
-            value="option2"
-            checked={selectedOption === "option2"}
-            onChange={this.handleOptionChange}
-          />
-         No
-        </label>
-        <br />
-       </span>
-      </div></>
+    return (
+      <>
+        <div className='text bold-text'>
+          <p>{Data['split Schedulet title']}</p>
+          <span>
+            <label className="radio-container">
+              <input
+                className="radio-input"
+                type="radio"
+                value="option1"
+                checked={selectedOption === "option1"}
+                onChange={this.handleOptionChange}
+              />
+              <span className="radio-label">Yes</span>
+            </label>
+
+            <label className="radio-container">
+              <input
+                className="radio-input"
+                type="radio"
+                value="option2"
+                checked={selectedOption === "option2"}
+                onChange={this.handleOptionChange}
+              />
+              <span className="radio-label">No</span>
+            </label>
+          </span>
+        </div>
+      </>
     );
   }
 }

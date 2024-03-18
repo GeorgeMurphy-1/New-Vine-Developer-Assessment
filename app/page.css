@@ -4,9 +4,9 @@
   grid-template-rows: 0fr 0fr 0fr 1fr;
   grid-column-gap: 1px;
   grid-row-gap: 0px;
-  height:80%;
+  height:700px;
   overflow: hidden;
-  width:80%;
+  width:1000px;
  
 }
 
@@ -40,8 +40,9 @@
 }
 .footer-area {
   grid-area: 6 / 2 / 7 / 4;
-  width: fit-content;
+  width: 500px;
     margin: auto;
+text-align:center;
 
 }
 
