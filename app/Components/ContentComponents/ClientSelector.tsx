@@ -25,7 +25,7 @@ export default class ClientSelector extends Component {
             height="20"
             width="20"
             alt="seperator"
-            src={"./wait Icon.svg"}
+            src={"./wait.svg"}
           />
         </div>
         <div className="mtb">
@@ -40,7 +40,7 @@ export default class ClientSelector extends Component {
             height="20"
             width="20"
             alt="seperator"
-            src={"./wait Icon.svg"}
+            src={"./wait.svg"}
           />
         </div>
         <div className="mtb">
@@ -55,7 +55,7 @@ export default class ClientSelector extends Component {
             height="20"
             width="20"
             alt="seperator"
-            src={"./wait Icon.svg"}
+            src={"./wait.svg"}
           />
         </div>
         <div className='mtb'>
@@ -70,7 +70,7 @@ export default class ClientSelector extends Component {
             height="20"
             width="20"
             alt="seperator"
-            src={"./wait Icon.svg"}
+            src={"./wait.svg"}
           />
         </div>
       </div>

@@ -20,7 +20,7 @@ export default class tolerenceWindow extends Component {
 
 <span className='text'>{Data['Toggle on']}</span>
 <Image src={'./PIKE.svg'} alt='pike' height="20" width="20"></Image>
-<Image src={'./wait Icon.svg'} alt='pike' height="20" width="20"></Image>
+<Image src={'./wait.svg'} alt='pike' height="20" width="20"></Image>
 <span className='text'>{Data.tolerencelevel}</span>
 </div>
       </div>
