@@ -21,13 +21,14 @@ export default function Home() {
   const splitSchedule: boolean = false;
   const elapsedDates: string[] | undefined = undefined;
   let fileToUpload: File;
-  const UploadPercent: number = undefined;
-  const importName: number = undefined;
-  const tolerence: number = undefined;
-  const selectedclient: number = undefined;
+  // const UploadPercent: number = undefined;
+  // const importName: number = undefined;
+  // const tolerence: number = undefined;
+  // const selectedclient: number = undefined;
 
   return (
     <><div className="background"></div>
+    
     <div className="container popup-container">
       
       <div className="close-area">
@@ -89,11 +90,15 @@ export default function Home() {
             <Du.ClientSelector />
           </div>
         </div>
+        
       </div>
       <div className="footer-area centered">
         <Du.Footer />
+      </div>
+     
+        
         </div>
       
-    </div></>
+   </>
   );
 }

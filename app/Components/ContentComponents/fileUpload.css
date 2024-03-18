@@ -61,6 +61,27 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
+
+  progress{
+    width:100%;
+    height: 3px;
+    appearance: none;
+        border: none;
+        background-color: #f0f0f0;
+  }
+
+  /* Color of the progress bar itself */
+  progress::-moz-progress-bar {
+    background-color:var(--secondary-color );
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--secondary-color );
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f0f0f0; /* Light gray */
+}
   
   .uploadProgress-child { grid-area: 1 / 1 / 3 / 2; }
   .uploadProgress-child2 { grid-area: 1 / 2 / 2 / 3; }

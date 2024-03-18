@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 0fr 15fr 10fr;
-  grid-template-rows: repeat(3, 2fr) 19fr 2fr repeat(2, 3fr);
+  grid-template-rows: 0fr 0fr 0fr 1fr;
   grid-column-gap: 1px;
   grid-row-gap: 0px;
   height:80%;
@@ -40,6 +40,9 @@
 }
 .footer-area {
   grid-area: 6 / 2 / 7 / 4;
+  width: fit-content;
+    margin: auto;
+
 }
 
 .centered{
