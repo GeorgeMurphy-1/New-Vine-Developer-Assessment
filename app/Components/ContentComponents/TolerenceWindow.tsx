@@ -10,9 +10,9 @@ export default class tolerenceWindow extends Component {
 
   render() {
     return (
-      <span>
-        <p className='text bold-text'>Tolerence Window</p>
-        <div>
+      <div >
+        <h3 className='text bold-text'>Tolerence Window</h3>
+        <div className='container-tol'>
         <label className="switch">
   <input type="checkbox"></input>
   <span className="slider round"></span>
@@ -23,7 +23,7 @@ export default class tolerenceWindow extends Component {
 <Image src={'./wait Icon.svg'} alt='pike' height="20" width="20"></Image>
 <span className='text'>{Data.tolerencelevel}</span>
 </div>
-      </span>
+      </div>
     )
   }
 }

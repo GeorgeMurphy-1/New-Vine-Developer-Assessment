@@ -59,7 +59,14 @@ export default function Home() {
             </div>
             <div className="left-contained-p2">
               <Du.FileUpload />
-            </div>
+            
+            <Image
+                height="3"
+                width="285"
+                alt="seperator"
+                src={"./Horizontal Bar.svg"}
+              /></div>
+              <br/>
             <div className="left-contained-p3">
               <Du.ElapsedCheck elapsedDates={elapsedDates} />
               <Image
@@ -78,9 +85,22 @@ export default function Home() {
           <div className="right-container">
             <div className="right-contained-1">
               <Du.Split />
+              <Image
+                height="3"
+                width="285"
+                alt="seperator"
+                src={"./Horizontal Bar.svg"}
+              />
             </div>
+            
             <div className="right-contained-2">
               <Du.Location />
+              <Image
+                height="3"
+                width="285"
+                alt="seperator"
+                src={"./Horizontal Bar.svg"}
+              />
             </div>
             <div className="right-contained-3">
               <Du.ClientRadio />

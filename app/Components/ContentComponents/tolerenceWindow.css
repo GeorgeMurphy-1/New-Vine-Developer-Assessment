@@ -60,3 +60,11 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .container-tol{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-start;
+}
+  
